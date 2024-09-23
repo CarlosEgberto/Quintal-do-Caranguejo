@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap');
+
+:root{
+    --fonte1: "Sankofa Display", sans-serif;
+    --cor1: #010626;
+    --cor2:#F2EED8;
+    --cor3:#F29829;
+    --cor4:#F2B872;
+    --cor5:#F27405;
+    --cor6: #c55c01;
+  }
+
+*{
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    min-width: 200px;
+    max-width: 720px;
+    min-height: auto;
+    
+}
+
+body{
+    background-color:var(--cor4);
+}
+header{
+    background-color: var(--cor5);
+    text-align: center;
+}
+
+header img{
+   width:120px;
+   height: 120px; 
+}
+header h1{
+    font-family: var(--fonte1);
+    font-weight: 600;
+    margin: 0px;
+}
+header p{
+    font-family: cursive;
+    margin-bottom: 0px;
+    padding-bottom:10px;
+}
+
+nav{
+    background-color:var(--cor3); 
+    padding:10px 0px 0px 0px;
+    margin: 0px;
+    border-top:var(--cor5);
+    border-left: var(--cor3);
+    border-right: var(--cor3);
+    border-bottom:var(--cor6);
+    border-style: solid;
+    padding-bottom: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: var(--cor1);
+    transition: 0.5s;
+    color: white;
+}
+
+main{
+    background-color: var(--cor3);
+}
+
+main h1{
+    margin: 0px;
+    padding: 10px 2px;
+    font-family: serif;
+}
+
+main p{
+    text-indent: 2em;
+    font-family: cursive;
+    text-align: justify;
+    padding: 0px 25px;
+}
+
+main img{
+    display: block;;
+    margin: 10px auto 0px auto;
+    padding: 10px 0px 20px 0px;
+    max-width: 675px;
+    max-height: 435px;
+    width: 95%;
+    height: auto;
+}
+
+footer{
+    background-color: var(--cor5);
+    text-align: center;
+    text-shadow:1px 1px 3px black;
+}
+
+/*Pagina de Cardapio*/
+
+main ul{
+    font-weight: bolder;
+    text-align: left;
+    list-style-position: inside;
+    list-style-type: '\2611\00A0';
+}
